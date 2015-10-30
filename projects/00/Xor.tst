@@ -1,5 +1,6 @@
 load Xor.hdl,
-output-list a, b, out;
+output-file Xor.out,
+output-list a, b, out,
 set a 0, set b 0,
 eval, output;
 
